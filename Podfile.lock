@@ -1,0 +1,23 @@
+PODS:
+  - MKColorPicker (1.0)
+  - MKMagneticProgress (1.4)
+
+DEPENDENCIES:
+  - MKColorPicker
+  - MKMagneticProgress (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MKColorPicker
+
+EXTERNAL SOURCES:
+  MKMagneticProgress:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MKColorPicker: bd6eaf70ea6ab7b92e5706e13ba4eaa93e637517
+  MKMagneticProgress: 006b8c763d62986661bcde03794a3dcf56cd084a
+
+PODFILE CHECKSUM: 83a44cd63b20a60cdd2408ab1ca57c4563b0faaf
+
+COCOAPODS: 1.10.1

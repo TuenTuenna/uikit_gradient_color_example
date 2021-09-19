@@ -1,0 +1,973 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FD7DFBCD25279808855051FC45C389F /* Pods-Example_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E638256CC0D2345FDBCD84779B03F6 /* Pods-Example_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A852CB17BEB6FA761373048435E9D29 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66351883432E29D4E78247BE7D6E96D /* UIColor+Extension.swift */; };
+		1BD4E85B664C9D7C18E6D4118F5659A9 /* MKColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 909D01B5533E91E8D1BEB2BB8494D929 /* MKColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23632771FFD9657C3FEF2B3C24AD5F37 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC826451289D10E08E118361709DBEC2 /* ColorPickerView.swift */; };
+		51722207892CF0DBD4DFEA1DACCCA70C /* ColorPickerViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07932555F4225189B26DF914DC182F3 /* ColorPickerViewDelegateFlowLayout.swift */; };
+		6084C5D5440166BE1CD69F80195B66A4 /* MKMagneticProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B813BB4D5AA5DE0AA26A05EF581BAF88 /* MKMagneticProgress.swift */; };
+		653B29E061D4CEB9F39F265727DAE3A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6A6B6CD516080AC4162AD761668FFB3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6AA32430D1F45BF2BB3B3C46B43F21A0 /* MKMagneticProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C647F9449261E1F1F4DB4F10EEBECDC7 /* MKMagneticProgress-dummy.m */; };
+		A03B552E297383B6D5509994C0833028 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C12A73963E6511DE759A9D58D1920F /* ColorPickerViewController.swift */; };
+		A0EDB09598EFB35F160A23712A307148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B7872F4D6CCFE2D8BA54C6C6895FFC19 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 127592DF443B7D4BABAB5244EEA04E97 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B94A4B806A856CAC4F9A1B1A377870AE /* ColorPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF02A5EF2AE5C9FA05EE236FA1384C66 /* ColorPickerViewDelegate.swift */; };
+		C919C8FA90948528C4D3F428EF60F876 /* MKMagneticProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFD17F08FF7F22BCE717306398E3F68 /* MKMagneticProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D686105214886AEB5754FA89687B0702 /* ColorPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6FDC1087BD7A7C14BB3F9F8D39AAA0 /* ColorPickerCell.swift */; };
+		DB09B8835B08BA90482AB44F670F8074 /* MKColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEED5EA81F7C3C5603F17F7FEB72818D /* MKColorPicker-dummy.m */; };
+		E11BD2C6FAD295A3E6184065A6453055 /* Pods-Example_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD05944E2C55564E2BA713FDC5804F6F /* Pods-Example_Tests-dummy.m */; };
+		FB581192C8EF6BA497BA17F158F07E7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FC2EC657918013B27720799BFF55D7F9 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A84ED16E9E7F968A9B874A26CB614F85 /* Pods-Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		217A3C1306360E93305E0358FCB299D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E1ADAC0F2A5F71E821303C4D909A00E;
+			remoteInfo = MKMagneticProgress;
+		};
+		B5A38AA488C147D4838E3FAD72341205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AEE99A309977BD12A049FF48AF9BA4B;
+			remoteInfo = "Pods-Example";
+		};
+		C31118F697DC7F4DC0E201499BEF296D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2E2A95F9C98D623556E38EA6E7DBDD;
+			remoteInfo = MKColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085421B39DD863130584FCF967AA31EC /* MKColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		0DBC2EBE350F40B2D4A019EF75899805 /* Pods-Example_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10AAFF9561F4749ED11D8F55C925CA7C /* MKColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MKColorPicker-Info.plist"; sourceTree = "<group>"; };
+		117E6CC5604A9B46A75CFFBD89DB26C0 /* MKMagneticProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MKMagneticProgress.modulemap; sourceTree = "<group>"; };
+		127592DF443B7D4BABAB5244EEA04E97 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		220A1953B77B21CA66087786CBB91B20 /* MKColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MKColorPicker.framework; path = MKColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0D6864329E23F0A3C0CF9E318DC81A /* MKColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKColorPicker.release.xcconfig; sourceTree = "<group>"; };
+		2EFD17F08FF7F22BCE717306398E3F68 /* MKMagneticProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKMagneticProgress-umbrella.h"; sourceTree = "<group>"; };
+		316EDE72784860A8BFF57E7AB2D3EBE8 /* Pods_Example_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example_Tests.framework; path = "Pods-Example_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3653E7AFDCC826635B4D5FDC0032773F /* MKMagneticProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKMagneticProgress.debug.xcconfig; sourceTree = "<group>"; };
+		36F6A4217A0560CCC7D6C5AE79E2D3AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3F7753063CD01831AE4F91B3E7D835F4 /* Pods-Example_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		550809D409B8EDAED4E80D3F0F9C1D8C /* Pods-Example_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		69A210420E30CD908D39E290403EFBCC /* MKMagneticProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MKMagneticProgress.framework; path = MKMagneticProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D04ECEA8AF8DCA956F4B9A13F8EFC94 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		6DBE9FD5151F3B71E285EE76818D67A2 /* MKMagneticProgress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MKMagneticProgress-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		785EA1EA56CE3D6F7E5052BDA3AA6C13 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
+		8184E44CB1671A63443C7AC1EEFA149C /* MKMagneticProgress.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MKMagneticProgress.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FB339DAF7B6F19D2B9C10CCC50C0788 /* Pods-Example_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example_Tests.modulemap"; sourceTree = "<group>"; };
+		909D01B5533E91E8D1BEB2BB8494D929 /* MKColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		99C12A73963E6511DE759A9D58D1920F /* ColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerViewController.swift; path = MKColorPicker/Classes/ColorPickerViewController.swift; sourceTree = "<group>"; };
+		99E3EC2C392209D1B4F83E23A473F3C7 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		9B471211E885FF77EE3D1BA8695143D0 /* Pods-Example_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7655EB1667A294286A7A8B5A7EB607 /* MKColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MKColorPicker.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F2FBCF8F0658E4077D24E54CC324039 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A07932555F4225189B26DF914DC182F3 /* ColorPickerViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerViewDelegateFlowLayout.swift; path = MKColorPicker/Classes/ColorPickerViewDelegateFlowLayout.swift; sourceTree = "<group>"; };
+		A723560C9EA061088272A53BEA250258 /* MKMagneticProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKMagneticProgress-prefix.pch"; sourceTree = "<group>"; };
+		A7E638256CC0D2345FDBCD84779B03F6 /* Pods-Example_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A84ED16E9E7F968A9B874A26CB614F85 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		AEED5EA81F7C3C5603F17F7FEB72818D /* MKColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKColorPicker-dummy.m"; sourceTree = "<group>"; };
+		B813BB4D5AA5DE0AA26A05EF581BAF88 /* MKMagneticProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKMagneticProgress.swift; path = MKMagneticProgress/Classes/MKMagneticProgress.swift; sourceTree = "<group>"; };
+		BD05944E2C55564E2BA713FDC5804F6F /* Pods-Example_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example_Tests-dummy.m"; sourceTree = "<group>"; };
+		C647F9449261E1F1F4DB4F10EEBECDC7 /* MKMagneticProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKMagneticProgress-dummy.m"; sourceTree = "<group>"; };
+		C66351883432E29D4E78247BE7D6E96D /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "MKColorPicker/Classes/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		C673F541C31EF72E27CC2751718F9BA8 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA7D3837910D8B7F861FC5BF543BD777 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CFB8FA6C773AF4E6B39020664B2B5F43 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB8D4016B7D72788CF46DF4B0133C070 /* MKMagneticProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKMagneticProgress.release.xcconfig; sourceTree = "<group>"; };
+		DC826451289D10E08E118361709DBEC2 /* ColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerView.swift; path = MKColorPicker/Classes/ColorPickerView.swift; sourceTree = "<group>"; };
+		DD0C02B4618B2B257B2A3D6FD87925C4 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F3AA82E1DAE47FA69E3E369EDCF9114C /* Pods-Example_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example_Tests-Info.plist"; sourceTree = "<group>"; };
+		F837BABABD10DEE32A3FD7B88475C603 /* MKColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKColorPicker.debug.xcconfig; sourceTree = "<group>"; };
+		FC6FDC1087BD7A7C14BB3F9F8D39AAA0 /* ColorPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerCell.swift; path = MKColorPicker/Classes/ColorPickerCell.swift; sourceTree = "<group>"; };
+		FF02A5EF2AE5C9FA05EE236FA1384C66 /* ColorPickerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerViewDelegate.swift; path = MKColorPicker/Classes/ColorPickerViewDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1828C1CC6501DFF735CD30DA4049A440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EDB09598EFB35F160A23712A307148 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F40BD6E8A43386B6E1417EE24E40AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6B6CD516080AC4162AD761668FFB3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916D12599A8E8A6DB8D85E437C805EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB581192C8EF6BA497BA17F158F07E7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D6800191EB4A35815C8810EC1BB989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653B29E061D4CEB9F39F265727DAE3A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021BB4F72F5809866BF71F13A63C40F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B7655EB1667A294286A7A8B5A7EB607 /* MKColorPicker.modulemap */,
+				AEED5EA81F7C3C5603F17F7FEB72818D /* MKColorPicker-dummy.m */,
+				10AAFF9561F4749ED11D8F55C925CA7C /* MKColorPicker-Info.plist */,
+				085421B39DD863130584FCF967AA31EC /* MKColorPicker-prefix.pch */,
+				909D01B5533E91E8D1BEB2BB8494D929 /* MKColorPicker-umbrella.h */,
+				F837BABABD10DEE32A3FD7B88475C603 /* MKColorPicker.debug.xcconfig */,
+				2C0D6864329E23F0A3C0CF9E318DC81A /* MKColorPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MKColorPicker";
+			sourceTree = "<group>";
+		};
+		02BCD4553371A4AA3B38238B59F88ABE /* MKMagneticProgress */ = {
+			isa = PBXGroup;
+			children = (
+				B813BB4D5AA5DE0AA26A05EF581BAF88 /* MKMagneticProgress.swift */,
+				172D9A84776685D6C284F0DC62DF9569 /* Pod */,
+				D67EDFD916706C98C3CCF8EF9051204F /* Support Files */,
+			);
+			name = MKMagneticProgress;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		172D9A84776685D6C284F0DC62DF9569 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				36F6A4217A0560CCC7D6C5AE79E2D3AC /* LICENSE */,
+				8184E44CB1671A63443C7AC1EEFA149C /* MKMagneticProgress.podspec */,
+				CA7D3837910D8B7F861FC5BF543BD777 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		36FA95D3AC74799E78E39F853F17175B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7AF245C1366173BFCB89938C8C2B9DD /* MKColorPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		395E7D64756FC9F89DB0121C8C009DEB /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				6D04ECEA8AF8DCA956F4B9A13F8EFC94 /* Pods-Example.modulemap */,
+				CFB8FA6C773AF4E6B39020664B2B5F43 /* Pods-Example-acknowledgements.markdown */,
+				9F2FBCF8F0658E4077D24E54CC324039 /* Pods-Example-acknowledgements.plist */,
+				A84ED16E9E7F968A9B874A26CB614F85 /* Pods-Example-dummy.m */,
+				C673F541C31EF72E27CC2751718F9BA8 /* Pods-Example-frameworks.sh */,
+				785EA1EA56CE3D6F7E5052BDA3AA6C13 /* Pods-Example-Info.plist */,
+				127592DF443B7D4BABAB5244EEA04E97 /* Pods-Example-umbrella.h */,
+				DD0C02B4618B2B257B2A3D6FD87925C4 /* Pods-Example.debug.xcconfig */,
+				99E3EC2C392209D1B4F83E23A473F3C7 /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		458F6AA8A445D41D42A7C7EBE4F1F626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220A1953B77B21CA66087786CBB91B20 /* MKColorPicker.framework */,
+				69A210420E30CD908D39E290403EFBCC /* MKMagneticProgress.framework */,
+				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
+				316EDE72784860A8BFF57E7AB2D3EBE8 /* Pods_Example_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A286E43848578632BE5079CF72885C2 /* Pods-Example_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8FB339DAF7B6F19D2B9C10CCC50C0788 /* Pods-Example_Tests.modulemap */,
+				0DBC2EBE350F40B2D4A019EF75899805 /* Pods-Example_Tests-acknowledgements.markdown */,
+				3F7753063CD01831AE4F91B3E7D835F4 /* Pods-Example_Tests-acknowledgements.plist */,
+				BD05944E2C55564E2BA713FDC5804F6F /* Pods-Example_Tests-dummy.m */,
+				F3AA82E1DAE47FA69E3E369EDCF9114C /* Pods-Example_Tests-Info.plist */,
+				A7E638256CC0D2345FDBCD84779B03F6 /* Pods-Example_Tests-umbrella.h */,
+				9B471211E885FF77EE3D1BA8695143D0 /* Pods-Example_Tests.debug.xcconfig */,
+				550809D409B8EDAED4E80D3F0F9C1D8C /* Pods-Example_Tests.release.xcconfig */,
+			);
+			name = "Pods-Example_Tests";
+			path = "Target Support Files/Pods-Example_Tests";
+			sourceTree = "<group>";
+		};
+		68652AFEF1DCC5E1E7A2C4053FF92D79 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02BCD4553371A4AA3B38238B59F88ABE /* MKMagneticProgress */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		771BD756A5955E36010CCC4F948FE0BC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				395E7D64756FC9F89DB0121C8C009DEB /* Pods-Example */,
+				5A286E43848578632BE5079CF72885C2 /* Pods-Example_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B7AF245C1366173BFCB89938C8C2B9DD /* MKColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FC6FDC1087BD7A7C14BB3F9F8D39AAA0 /* ColorPickerCell.swift */,
+				DC826451289D10E08E118361709DBEC2 /* ColorPickerView.swift */,
+				99C12A73963E6511DE759A9D58D1920F /* ColorPickerViewController.swift */,
+				FF02A5EF2AE5C9FA05EE236FA1384C66 /* ColorPickerViewDelegate.swift */,
+				A07932555F4225189B26DF914DC182F3 /* ColorPickerViewDelegateFlowLayout.swift */,
+				C66351883432E29D4E78247BE7D6E96D /* UIColor+Extension.swift */,
+				021BB4F72F5809866BF71F13A63C40F9 /* Support Files */,
+			);
+			name = MKColorPicker;
+			path = MKColorPicker;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				68652AFEF1DCC5E1E7A2C4053FF92D79 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				36FA95D3AC74799E78E39F853F17175B /* Pods */,
+				458F6AA8A445D41D42A7C7EBE4F1F626 /* Products */,
+				771BD756A5955E36010CCC4F948FE0BC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D67EDFD916706C98C3CCF8EF9051204F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				117E6CC5604A9B46A75CFFBD89DB26C0 /* MKMagneticProgress.modulemap */,
+				C647F9449261E1F1F4DB4F10EEBECDC7 /* MKMagneticProgress-dummy.m */,
+				6DBE9FD5151F3B71E285EE76818D67A2 /* MKMagneticProgress-Info.plist */,
+				A723560C9EA061088272A53BEA250258 /* MKMagneticProgress-prefix.pch */,
+				2EFD17F08FF7F22BCE717306398E3F68 /* MKMagneticProgress-umbrella.h */,
+				3653E7AFDCC826635B4D5FDC0032773F /* MKMagneticProgress.debug.xcconfig */,
+				DB8D4016B7D72788CF46DF4B0133C070 /* MKMagneticProgress.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MKMagneticProgress";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		463F437E63F73A46A63EAFCF4971A0AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7872F4D6CCFE2D8BA54C6C6895FFC19 /* Pods-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F4B2BBDA97A14A28FCCE8547571508 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C919C8FA90948528C4D3F428EF60F876 /* MKMagneticProgress-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EAC5C1E8CCC2DAE892FAC729CCF11A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD7DFBCD25279808855051FC45C389F /* Pods-Example_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DCDB883F821DDD4D1DC3C8E352CC57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD4E85B664C9D7C18E6D4118F5659A9 /* MKColorPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5422198A49A60E779F2CEBAD4B358F8A /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				463F437E63F73A46A63EAFCF4971A0AE /* Headers */,
+				E38A1A543ADFC28D2C5A49148F2AA03E /* Sources */,
+				67F40BD6E8A43386B6E1417EE24E40AA /* Frameworks */,
+				A4782DF775C933109864B31A53C764B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ED8246E8992AA98D2A470667A042175 /* PBXTargetDependency */,
+				CF1BC794DC70F3379A7A847746B3AC3B /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E1ADAC0F2A5F71E821303C4D909A00E /* MKMagneticProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15568CBD82AAD1E6C09661E1B6CBAA4 /* Build configuration list for PBXNativeTarget "MKMagneticProgress" */;
+			buildPhases = (
+				47F4B2BBDA97A14A28FCCE8547571508 /* Headers */,
+				55D1ADAFCE2A1AA6F739900454005798 /* Sources */,
+				C7D6800191EB4A35815C8810EC1BB989 /* Frameworks */,
+				40D343A4AC5E36F8C1C92835E6E90580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKMagneticProgress;
+			productName = MKMagneticProgress;
+			productReference = 69A210420E30CD908D39E290403EFBCC /* MKMagneticProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		319C62F0AC25CD5FDC7D7F52AAE0F0DE /* Pods-Example_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2551DB8ABF1C9CA347773335991A5CE6 /* Build configuration list for PBXNativeTarget "Pods-Example_Tests" */;
+			buildPhases = (
+				A0EAC5C1E8CCC2DAE892FAC729CCF11A /* Headers */,
+				B5142D410AA780BA580A320647A9BB2E /* Sources */,
+				916D12599A8E8A6DB8D85E437C805EF8 /* Frameworks */,
+				C5C1B55CA0AE785AFD447843C17604F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46AB1EC55AFEF72B4A661ACCDC1B8010 /* PBXTargetDependency */,
+			);
+			name = "Pods-Example_Tests";
+			productName = "Pods-Example_Tests";
+			productReference = 316EDE72784860A8BFF57E7AB2D3EBE8 /* Pods_Example_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E2E2A95F9C98D623556E38EA6E7DBDD /* MKColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0254A42E1E9274B7B837FC3CBCEC6479 /* Build configuration list for PBXNativeTarget "MKColorPicker" */;
+			buildPhases = (
+				B7DCDB883F821DDD4D1DC3C8E352CC57 /* Headers */,
+				E002F730E9DA9E9EE3AC4D5BA17FF937 /* Sources */,
+				1828C1CC6501DFF735CD30DA4049A440 /* Frameworks */,
+				F9E625BFF5B110732D9F288674BE23AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKColorPicker;
+			productName = MKColorPicker;
+			productReference = 220A1953B77B21CA66087786CBB91B20 /* MKColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 458F6AA8A445D41D42A7C7EBE4F1F626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2E2A95F9C98D623556E38EA6E7DBDD /* MKColorPicker */,
+				2E1ADAC0F2A5F71E821303C4D909A00E /* MKMagneticProgress */,
+				0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */,
+				319C62F0AC25CD5FDC7D7F52AAE0F0DE /* Pods-Example_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40D343A4AC5E36F8C1C92835E6E90580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4782DF775C933109864B31A53C764B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C1B55CA0AE785AFD447843C17604F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E625BFF5B110732D9F288674BE23AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D1ADAFCE2A1AA6F739900454005798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA32430D1F45BF2BB3B3C46B43F21A0 /* MKMagneticProgress-dummy.m in Sources */,
+				6084C5D5440166BE1CD69F80195B66A4 /* MKMagneticProgress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5142D410AA780BA580A320647A9BB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11BD2C6FAD295A3E6184065A6453055 /* Pods-Example_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E002F730E9DA9E9EE3AC4D5BA17FF937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D686105214886AEB5754FA89687B0702 /* ColorPickerCell.swift in Sources */,
+				23632771FFD9657C3FEF2B3C24AD5F37 /* ColorPickerView.swift in Sources */,
+				A03B552E297383B6D5509994C0833028 /* ColorPickerViewController.swift in Sources */,
+				B94A4B806A856CAC4F9A1B1A377870AE /* ColorPickerViewDelegate.swift in Sources */,
+				51722207892CF0DBD4DFEA1DACCCA70C /* ColorPickerViewDelegateFlowLayout.swift in Sources */,
+				DB09B8835B08BA90482AB44F670F8074 /* MKColorPicker-dummy.m in Sources */,
+				1A852CB17BEB6FA761373048435E9D29 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38A1A543ADFC28D2C5A49148F2AA03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2EC657918013B27720799BFF55D7F9 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ED8246E8992AA98D2A470667A042175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKColorPicker;
+			target = 3E2E2A95F9C98D623556E38EA6E7DBDD /* MKColorPicker */;
+			targetProxy = C31118F697DC7F4DC0E201499BEF296D /* PBXContainerItemProxy */;
+		};
+		46AB1EC55AFEF72B4A661ACCDC1B8010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Example";
+			target = 0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */;
+			targetProxy = B5A38AA488C147D4838E3FAD72341205 /* PBXContainerItemProxy */;
+		};
+		CF1BC794DC70F3379A7A847746B3AC3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKMagneticProgress;
+			target = 2E1ADAC0F2A5F71E821303C4D909A00E /* MKMagneticProgress */;
+			targetProxy = 217A3C1306360E93305E0358FCB299D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07E405D8E9E43CF1B251F615B852AD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3653E7AFDCC826635B4D5FDC0032773F /* MKMagneticProgress.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKMagneticProgress/MKMagneticProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKMagneticProgress/MKMagneticProgress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKMagneticProgress/MKMagneticProgress.modulemap";
+				PRODUCT_MODULE_NAME = MKMagneticProgress;
+				PRODUCT_NAME = MKMagneticProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3DB796083477234932103926D6C9ADEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 550809D409B8EDAED4E80D3F0F9C1D8C /* Pods-Example_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example_Tests/Pods-Example_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example_Tests/Pods-Example_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E32606FA93BA2230EB9AE8D183958E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0D6864329E23F0A3C0CF9E318DC81A /* MKColorPicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKColorPicker/MKColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKColorPicker/MKColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKColorPicker/MKColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = MKColorPicker;
+				PRODUCT_NAME = MKColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D7DA2008E24EA0C034368B389EA6BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8D4016B7D72788CF46DF4B0133C070 /* MKMagneticProgress.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKMagneticProgress/MKMagneticProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKMagneticProgress/MKMagneticProgress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKMagneticProgress/MKMagneticProgress.modulemap";
+				PRODUCT_MODULE_NAME = MKMagneticProgress;
+				PRODUCT_NAME = MKMagneticProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61F5526A2502C0455DBDFB3B035613B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F837BABABD10DEE32A3FD7B88475C603 /* MKColorPicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MKColorPicker/MKColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKColorPicker/MKColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKColorPicker/MKColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = MKColorPicker;
+				PRODUCT_NAME = MKColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8BBE6259791441F21329E28A2B023250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B471211E885FF77EE3D1BA8695143D0 /* Pods-Example_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example_Tests/Pods-Example_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example_Tests/Pods-Example_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3CC71782729158DB68A12B9F01541CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0C02B4618B2B257B2A3D6FD87925C4 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C236CDB2EEBA8D84D041F12CF2B0CF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E3EC2C392209D1B4F83E23A473F3C7 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0254A42E1E9274B7B837FC3CBCEC6479 /* Build configuration list for PBXNativeTarget "MKColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F5526A2502C0455DBDFB3B035613B6 /* Debug */,
+				4E32606FA93BA2230EB9AE8D183958E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2551DB8ABF1C9CA347773335991A5CE6 /* Build configuration list for PBXNativeTarget "Pods-Example_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBE6259791441F21329E28A2B023250 /* Debug */,
+				3DB796083477234932103926D6C9ADEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5422198A49A60E779F2CEBAD4B358F8A /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CC71782729158DB68A12B9F01541CF /* Debug */,
+				C236CDB2EEBA8D84D041F12CF2B0CF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15568CBD82AAD1E6C09661E1B6CBAA4 /* Build configuration list for PBXNativeTarget "MKMagneticProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E405D8E9E43CF1B251F615B852AD65 /* Debug */,
+				5D7DA2008E24EA0C034368B389EA6BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
